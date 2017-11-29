@@ -1,0 +1,13 @@
+{
+  "name": "mysqlexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.15.0",
+    "save": "^2.3.1"
+  }
+}

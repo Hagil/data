@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="todoApp">
+
+<head>
+    <link rel="icon" href="http://www.stream2watch.cc/images/categories/4/64x64/14616606297074.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/todosController.js"></script>
+    <script src="js/app.js"></script>
+    <title>Angular Directives</title>
+</head>
+
+<body ng-controller="TodosController">
+    <header>
+        <h1>Angular Todo App</h1>
+        <h3>You have {{all.length}} to-dos to do!</h3>
+    </header>
+
+<form ng-submit="add()">
+    <input type="text" placeholder='I need to...' ng-model="newTodo.task">
+</form>
+<p ng-if='newTodo.task'>About to add todo: <strong>{{newTodo.task}}</strong></p>
+
+<ul>
+    <li ng-repeat="todo in all">
+        {{todo.task}}
+    </li>
+</ul>
+</body>
+
+</html>

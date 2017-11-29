@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html ng-app="IntroToAngularApp">
+<head>
+    <head>
+        <meta charset="utf-8">
+        <title>Intro to Angular</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+        <script src="js/app.js"></script>
+      </head>
+</head>
+<body>
+<h1>Pittsburgh Steelers</h1>
+
+<h2>General Info</h2>
+<section ng-controller="controller_1">
+<p>{{name}}</p>
+<p>{{division}}</p>
+<p>{{established}}</p>
+</section>
+
+<h2>Key Players</h2>
+<section ng-controller="controller_2">
+    <input type="text" ng-model="qb.name">
+    <input type="text" ng-model="qb.position">
+    <input type="text" ng-model="qb.number">
+        <ul>
+            <li>{{qb.name}}</li>
+            <li>{{qb.position}}</li>
+            <li>{{qb.number}}</li>
+        </ul>
+        <input type="text" ng-model="rb.name">
+        <input type="text" ng-model="rb.position">
+        <input type="text" ng-model="rb.number">
+        <ul>
+                <li>{{rb.name}}</li>
+                <li>{{rb.position}}</li>
+                <li>{{rb.number}}</li>
+            </ul>
+            <input type="text" ng-model="wr.name">
+            <input type="text" ng-model="wr.position">
+            <input type="text" ng-model="wr.number">
+            <ul>
+                    <li>{{wr.name}}</li>
+                    <li>{{wr.position}}</li>
+                    <li>{{wr.number}}</li>
+                </ul>
+        </section>
+
+<h2>Contact Info</h2>
+<section ng-controller="controller_3">
+        <p>{{website}}</p>
+        <p>{{email}}</p>
+        <p>{{number}}</p>
+        </section>
+
+</body>
+</html>

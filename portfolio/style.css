@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+    background: #66d9ff;
+}
+
+a {
+    font-family: 'Permanent Marker';
+    font-size: 1.8em;
+    padding: 30px;
+    font-weight: 800;
+    margin: 25px;
+    color: #001a4d;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 3.75em;
+    font-weight: 700;
+    margin: 100;
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 30px;
+    border-style: solid;
+    padding: 0px; 
+    margin: 40px 10px;
+    border-width: 15px;
+    float: inherit;
+}
+
+p {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Permanent Marker';
+    color:#001a4d;
+}
+
+h3 {
+    font-family: 'Permanent Marker';
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+}
+
+#measurements {
+    width: 200px;
+    margin: auto;
+}
+
+#measurements ul li {
+    margin: 2px;
+    border: 3px solid black;
+    border-radius: 30px;
+    font-family: 'Permanent Marker';
+    color: black;
+    padding: 2px;
+    text-align: center;
+    background: white;
+}
+
+.copyright {
+    font-family: "Ubuntu";
+    float: left;
+}
+
+.message {
+    font-family: "Ubuntu";
+    float: right;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+
+.name {
+    color: cornsilk;
+    font-weight: 700;
+}

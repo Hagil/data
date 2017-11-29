@@ -1,0 +1,12 @@
+{
+  "name": "junk",
+  "version": "1.0.0",
+  "description": "load of junk",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}

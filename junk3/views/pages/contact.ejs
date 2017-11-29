@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+   
+</head>
+
+<body class="container">
+
+<header>
+    <% include ../partials/header %>
+</header>
+
+<% include ../partials/jumbotron %>
+ 
+
+<div class="jumbotron">
+        <h2>Contact</h2>
+        <p>Hong Kong GA</p>
+        <p>EMAIL</p>
+        <p>TEL</p>
+    </div>
+
+    <div id="map"></div>
+
+    <script>
+      function initMap() {
+        var hongKong = {lat: 22.283123, lng: 114.157002};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: hongKong
+        });
+        var marker = new google.maps.Marker({
+          position: hongKong,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5yl1HmQZbAeiy0h5GNhNKwA5fsW7s3p0&callback=initMap">
+</script>
+
+
+<footer>
+    <% include ../partials/footer %>
+</footer>
+
+</body>
+</html>

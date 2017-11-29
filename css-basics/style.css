@@ -1,0 +1,83 @@
+body {
+  background: white
+}
+
+p {
+  color: orange;
+}
+
+div {
+  border: 1px solid black;
+  /*border-width: 1px;
+  border-style: solid;
+  border-color: black;*/
+}
+.comments {
+    font-weight: bold;
+    color: #64FE2E; /* green */
+  }
+  
+  #dolphin {
+    font-style: italic;
+    color: #0040FF; /*blue*/
+}
+
+.mammals {
+    background-color: lavenderblush;
+    color: red;
+    font-weight: bold;
+}
+
+.bird {
+    background-color: lightgray;
+    color: blue;
+    font-style:italic;
+}
+.fish {
+    background-color: lightyellow;
+  color: orange;
+    text-decoration: underline;
+}
+
+#mouse {
+    color: gray;
+}
+#canary {
+    color: orangered;
+}
+#penguin {
+    color: black;
+}
+#salmon {
+    color:salmon;
+}
+
+.first {
+  font-size: 40px;
+}
+
+.second {
+  color: red;
+}
+li {
+  text-align: center;
+    border-top: 3px;
+    color: seagreen;
+    border-style: solid;
+}
+
+li.why {
+    color: red;
+  font-family: sans-serif;
+}
+
+li#not {
+  font-family: serif;
+}
+
+ul {
+    border-width: 3px;
+    color: plum;
+    border-style: dotted;
+    border-radius: 5px;
+}

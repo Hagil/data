@@ -1,0 +1,12 @@
+{
+  "name": "express-blog",
+  "version": "1.0.0",
+  "description": "express-blog",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}

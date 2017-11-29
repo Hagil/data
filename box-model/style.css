@@ -1,0 +1,18 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  background: url(/Users/hagil/fundamentals/WDI/data/box-model/images/bgtile.png);
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+h2 {
+  color: #1c5380;
+}
+
+.footer {
+  color: #1c5380;
+}
